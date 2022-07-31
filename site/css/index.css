@@ -1,5 +1,22 @@
 body {
     font-size: 16px;
     color: #fff;
-    background-color: #61122f;
+    background-color: #008b8b;
+}
+
+#header-nav {
+    background-color: #fdf5e6;
+    border-radius: 15%;
+    border: 0;
+    margin: 20px 0px 20px 0px;
+
+}
+
+#logo-img {
+    background: url("../images/imgonline-com-ua-Resize-nP3DSbX2bT5O.png") no-repeat;
+    width: 238px;
+    height: 222px;
+    margin: 10px 15px 10px 0;
+    border-radius: 50%;
+
 }
