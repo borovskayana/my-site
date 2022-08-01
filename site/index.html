@@ -7,22 +7,51 @@
         <title>Inspiration</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav id="header-nav" class="navbar navbar-default">
                 <div class="container">
                     <div class="navbar-header">
-                        <a href="index.html" class="pull-left">
+                        <a href="index.html" class="pull-left visible-md visible-lg">
                             <div id="logo-img" alt="Logo image"></div>
                         </a>
                         
                         <div class="navbar-brand">
                             <a href="index.html"><h1>About me and my inspiration</h1></a>
-                            <p>Hi! My name is Yana! I'm glad to share with you my life and moods.</p> 
-                            <p>You can go step by step with me for adventure. So, let's go!</p>
+                            <p>Hi! My name is Yana!</p>  
+                            <p>I'm glad to share with you my life and moods.</p> 
+                            <p> You can go step by step with me for adventure. So, let's go!</p> 
                         </div>
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                         </button>
                     </div>
+
+                    <div id="collapsable-nav" class="collapse navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">
+                         <li id="insta">
+                           <a href="#">
+                             <span class="glyphicon glyphicon-camera"></span><br class="hidden-xs"> Instagram</a>
+                         </li>
+                         <li id="face">
+                           <a href="#">
+                             <span class="glyphicon glyphicon-globe"></span><br class="hidden-xs"> Facebook</a>
+                         </li>
+        
+                    
+                         <li id="phone" class="hidden-xs">
+                           <a href="tel:+48-698-799-885">
+                             <span>+48-698-799-885</span> </a>
+                         </li>
+                       </ul>
+                     </div>
                 </div>
             </nav>
         </header>
