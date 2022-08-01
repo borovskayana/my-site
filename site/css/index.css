@@ -1,13 +1,20 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  }
+
 body {
     font-size: 16px;
     color: #fff;
     background-color: #008b8b;
+    font-family: 'Amatic SC', cursive;
 }
 
 #header-nav {
     background-color: #fdf5e6;
     border-radius: 15%;
-    border: 0;
+    border: 20px;
     margin: 20px 0px 20px 0px;
 
 }
@@ -16,7 +23,59 @@ body {
     background: url("../images/imgonline-com-ua-Resize-nP3DSbX2bT5O.png") no-repeat;
     width: 238px;
     height: 222px;
-    margin: 10px 15px 10px 0;
+    margin: 10px 15px 10px 0px;
     border-radius: 50%;
+   
 
 }
+.navbar-brand {
+    padding-top: 25px;
+   
+}
+
+.navbar-brand h1 {
+    color: #8B0000;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand p {
+    color: #696969;
+    text-transform: uppercase;
+    font-size: 25px;
+   
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #8B0000;
+    text-align: center;
+    font-size: 2em;
+}
+
+#nav-list a:hover {
+    color:bisque;
+
+}
+#nal-list a span {
+    font-size: 50px;
+}
+
+#phone {
+    font-size: 15px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 50px;
+
+}
+
