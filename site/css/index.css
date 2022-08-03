@@ -109,7 +109,7 @@ body {
     
 }
 
-#life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title {
+#life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
     height: 250px;
     width: 100%;
     margin-bottom: 15px;
@@ -126,7 +126,7 @@ body {
 
 
 
-#life-title:hover, #trip-title:hover, #art-title:hover, #movies-title:hover, #music-title:hover, #inspiration-title:hover {
+#life-title:hover, #trip-title:hover, #art-title:hover, #movies-title:hover, #music-title:hover, #inspiration-title:hover, #inspirationn-title:hover {
     box-shadow: 0 1px 25px 1px #8B0000;
     text-decoration: none;
 } 
@@ -186,7 +186,7 @@ body {
         border: 5px double #8B0000;
     }
 
-    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title {
+    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
         border: 5px double #3cb371;
     }
 
@@ -200,7 +200,7 @@ body {
         
     }
 
-    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title {
+    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
         width: 220px;
         height: 220px;
         margin: 0 auto 15px;
@@ -243,7 +243,7 @@ body {
         
     }
     
-    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title {
+    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
         width: 300px;
         height: 300px;
         margin: 0 auto 15px;
@@ -338,7 +338,7 @@ body {
         #collapsable-nav a span {
             margin-right: 10px;
         }
-        #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title {
+        #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
             width: 165px;
             height: 165px;
             margin: 0 auto 15px;
