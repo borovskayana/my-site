@@ -135,6 +135,52 @@ body {
     text-decoration: none;
 }
 
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    Background-color: #222;
+    border: 0;
+    opacity: 0.7;
+    
+    
+}
+
+#media-object-left {
+    background: url("../images/stich4.png");
+    width: 200px;
+    height: 188px;
+    position: relative;
+    margin-left: 175px;
+    margin-top: -20px;
+}
+
+#media-object-right {
+    background: url("../images/lilo.png");
+    width: 200px;
+    height: 213px;
+    padding: 0;
+    margin-top: -145px;
+    margin-right: 175px;
+}
+
+.panel-footer span {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 80px;
+    padding-top: 20px;
+    
+    
+}
+#media-object-left #media-object-right {
+    clear: both;
+}
+
+#copyright {
+    padding-top: 30px;
+}
+
+
 @media (min-width: 1200px) {
     #header-nav {
         border: 5px double #8B0000;
@@ -155,16 +201,39 @@ body {
     }
 
     #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title {
-        width: 340px;
-        height: 340px;
+        width: 220px;
+        height: 220px;
         margin: 0 auto 15px;
-        font-size: 8vw;
-        padding-top: 100px;
+        font-size: 5vw;
+        padding-top: 60px;
         margin-top: 20px;
         border: 5px double #3cb371;
     }
 
+    #media-object-left {
+        background: url("../images/stichmd.png");
+        width: 160px;
+        height: 150px;
+        margin-left: 85px;
+        margin-top: -5px;
+    }
     
+    #media-object-right {
+        background: url("../images/lilomd.png");
+        width: 160px;
+        height: 170px;
+        padding: 0;
+        margin-top: -150px;
+        margin-right: 85px;
+    }
+    
+    .panel-footer span {
+        font-size: 4vw;
+        margin-left: 45px;
+        padding-top: -50px;
+        
+        
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -175,14 +244,39 @@ body {
     }
     
     #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title {
-        width: 340px;
-        height: 340px;
+        width: 300px;
+        height: 300px;
         margin: 0 auto 15px;
-        font-size: 8vw;
+        font-size: 7vw;
         padding-top: 100px;
         margin-top: 20px;
         margin-right: 20px;
         border: 5px double #3cb371;
+    }
+
+    #media-object-left {
+        background: url("../images/stichsm2.png");
+        width: 130px;
+        height: 122px;
+        margin-left: 75px;
+        margin-top: -5px;
+    }
+    
+    #media-object-right {
+        background: url("../images/lilosm2.png");
+        width: 130px;
+        height: 138px;
+        padding: 0;
+        margin-top: -110px;
+        margin-right: 75px;
+    }
+    
+    .panel-footer span {
+        font-size: 4vw;
+        margin-left: 50px;
+        padding-top: -50px;
+        
+        
     }
 
   
@@ -255,4 +349,30 @@ body {
             
         }
     
+        #media-object-left {
+            background: url("../images/stichsm.png");
+            width: 80px;
+            height: 75px;
+            margin-left: 0px;
+            margin-top: -5px;
+        }
+        
+        #media-object-right {
+            background: url("../images/lilosm.png");
+            width: 80px;
+            height: 85px;
+            padding: 0;
+            margin-top: -75px;
+            margin-right: 0;
+        }
+        
+        .panel-footer span {
+            font-size: 6vw;
+            margin-left: 20px;
+            padding-top: -50px;
+            
+            
+        }
+
+
     }
