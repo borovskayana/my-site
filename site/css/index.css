@@ -180,6 +180,131 @@ body {
     padding-top: 30px;
 }
 
+#category-body {
+   
+}
+
+#header-nav-category {
+    background-color: #3cb371;
+    border-radius: 0;
+    border-radius: 10%;
+    margin: 0px 0px 0px 0px;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    opacity: 0.7;
+    border: 5px double #fdf5e6;
+    
+    
+
+}
+
+.navbar-header-category span {
+    color: #222;
+    margin-top: 0;
+    
+}
+
+.navbar-header-category a:hover, .navbar-header-category a:focus {
+    text-decoration: none;
+}
+
+
+#head-home {
+    font-size: 55px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    
+
+    
+}
+#head-home:hover {
+    box-shadow: 0px 25px 25px 0px #3cb371;
+    text-decoration: none;
+} 
+
+#logo-img-category {
+   margin-right: 300px;
+  
+}
+
+.container .jumbotron {
+    background: radial-gradient(#fff,#3cb371);
+    box-shadow: 0 0 50px #3cb371;
+    border-radius: 15%;
+    margin: 35px 35px 35px 35px;
+    border: 5px double #fdf5e6;
+    
+
+}
+
+.img-responsive {
+    border-radius: 15%;
+    margin: auto;
+   
+ 
+
+}
+
+#logo-img-category {
+    background: url(../images/header4.png) no-repeat;
+    width: 500px;
+    height: 80px;
+    background-position: right;
+    margin-top: 2%;
+    margin-right: 20%;
+    
+}
+
+.menu-item-description {
+    color: #222;
+    font-family: 'Square Peg', cursive;
+    text-align: justify;
+
+}
+
+
+.menu-item-description p {
+    font-size: 24px;
+
+}
+
+.menu-item-description h3 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.jumbotron:hover {
+    box-shadow: 0 1px 25px 1px rgb(3, 72, 38);
+    text-decoration: none;
+}
+
+.jumbotron a:hover, .jumbotron a:focus {
+    text-decoration: none;
+}
+
+.navbar-header-category, .navbar-header {
+    clear: both;
+    display: inline;
+}
+
+.btn {
+    background: radial-gradient(#fdf5e6, #808080 );
+    color: #222;
+    border: #222;
+    
+}
+
+
+#button {
+    color: #222;
+}
+
+#img-head-xs {
+    margin-top: -15px;
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
 
 @media (min-width: 1200px) {
     #header-nav {
@@ -278,7 +403,7 @@ body {
         
         
     }
-
+   
   
 }
 
@@ -295,6 +420,7 @@ body {
         height: 109px;
         margin: 5px 5px 5px 5px;
         border-radius: 50%;
+        
        
         }
         
@@ -305,7 +431,7 @@ body {
 
         .navbar-brand h1 {
             color: #8B0000;
-            font-size: 5vw;
+            font-size: 6vw;
             margin-bottom: 5px;
             margin-top: 0;
      
@@ -320,12 +446,13 @@ body {
             color: #696969;
             margin-bottom: 5px;
             margin-top: 5px;
-            font-size: 4vw;
+            font-size: 5vw;
             
            
         }
 
         button.navbar-toggle {
+            margin-right: -5px;
        
             
             
@@ -374,10 +501,69 @@ body {
             
         }
 
+        #header-nav-category {
+          
+            border: 2px double #fdf5e6;
+            
+            
+        
+        }
+
+        .container .jumbotron {
+            margin: 15px 15px 15px 15px;
+            border: 2px double #fdf5e6;
+            
+        
+        }
+
+        #logo-img-category {
+            background: url(../images/headercatsm.png) no-repeat;
+            width: 380px;
+            height: 61px;
+            background-position: right;
+            margin-top: -50px;
+            margin-right: 0px;
+            position: relative;
+
+        }
+
+        .menu-item-description p {
+            font-size: 4vw;
+        
+        }
+        
+        .menu-item-description h3 {
+            font-size: 6vw;
+        }
+        .img-responsive {
+            border-radius: 30%;
+
+           
+         
+        
+        }
+        #head-home {
+            font-size: 6.5vw;
+            margin-top: 15px;
+          
+        
+            
+        }
+        .navbar-header-category span {
+            font-size: 5vw;
+            padding-left: 5px;
+            
+            
+            
+        }
+
 
     }
 
+
     @media (max-width: 350px) {
+        
+    
         
         #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
             width: 135px;
@@ -416,6 +602,17 @@ body {
         }
         
 
+        #logo-img-category {
+            background: url(../images/headercatxss.png) no-repeat;
+            width: 190px;
+            height: 30px;
+            background-position: right;
+            margin-top: 10px;
+            margin-right: 0px;
+            position: relative;
+
+        }
+   
 
 
 
