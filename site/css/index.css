@@ -733,6 +733,7 @@ body {
             
         }
 
+
 /* ART CATEGORY PAGE */
         #logo-img-category-art {
 
@@ -753,8 +754,18 @@ body {
         
             
         }
+        #head-home-dance {
+            font-size: 5vw;
+            margin-top: 15px;
+          
+        }
 
-      
+        #head-home-3d {
+            font-size: 5vw;
+            margin-top: 15px;
+           
+        }
+       
 
 
 
