@@ -8,6 +8,20 @@
     display: none;
 }
 
+#form {
+    margin-bottom: 100px;
+    size: 48px;
+}
+
+#input {
+    font-size: 30px;
+}
+
+#button{
+    font-size: 20px;
+    color: #f46d76;
+}
+
 body {
     font-size: 16px;
     color: #fff;
@@ -43,7 +57,8 @@ body {
     color: #8B0000;
     font-size: 50px;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    margin-top: -5px;
     
 }
 
@@ -118,13 +133,15 @@ body {
 /* MAIN CONTENT */
 
 #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-    height: 250px;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
+    height: 280px;
+    width: 280px;
+    margin: 0;
+    margin:auto;
+
+
     overflow:hidden;
     background: #fdf5e6;
-    margin-top: 50px;
+ 
     text-align: center;
     padding-top: 100px;
     border-radius: 50%;
@@ -145,12 +162,108 @@ body {
 
 
 
+
+
+
+/* Slider */
+
+.flex{
+    display: flex;
+}
+
+.flex_column{
+    min-width: 0;
+}
+.slider{
+    min-width: 0;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
+#home-titles {
+    position: relative;
+    margin: 0px;
+    
+    
+}
+#home-titles .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -100px 0 0 0;
+    z-index: 10;
+    font-size: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    
+}
+
+#home-titles .slick-arrow.slick-prev{
+    left: 0;
+    background: url(../images/arrow-left.svg) 0 0 / 100% no-repeat;
+    width: 70px;
+    height: 70px;
+    border: 0;
+   
+
+}
+
+#home-titles .slick-arrow.slick-next{
+    right: 0;
+    background: url(../images/arrow-right.svg) 0 0 / 100% no-repeat;
+    width: 70px;
+    height: 70px;
+    border: 0;
+}
+#home-titles .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home-titles .slick-dots li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+#home-titles .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 15px;
+    border-radius: 50%;
+    margin-top: 100px;
+  
+    background-color: #fff;
+}
+#home-titles .slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid #fff; 
+}
+
+#home-titles .slick-active button {
+    background-color: transparent;
+    border: 1px solid #fff; 
+}
+
+.slick-slide {
+    opacity: 0.4;
+    text-align: center;
+    margin: 0;
+}
+.slick-slide.slick-center {
+    opacity: 1;
+}
 /* FOOTER */
 
 .panel-footer {
     margin-top: 30px;
     padding-top: 35px;
     padding-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
     Background-color: #222;
     border: 0;
     opacity: 0.7;
@@ -379,10 +492,15 @@ body {
 
  /*DANCE CATEGORY PAGE */
 
- 
+ #category-body-dance{
+    background-color: #f8f4ee;
+ }
  #jumbotron-dance {
-    background: radial-gradient(#fff,#e8dbca);
+    background: radial-gradient(#fff,#fff);
     box-shadow: 0 0 50px #f6ce9b;
+    border-radius: 15%;
+    border: 0;
+    opacity: 0.9;
 
 }
 
@@ -392,9 +510,9 @@ body {
 }
 
 #header-category-dance {
-    background-color: #f0dfc7;
+    background-color: #fff;
     border-radius: 0;
-    border-radius: 10%;
+    border-radius: 0%;
     margin: 0px 0px 0px 0px;
     font-size: 28px;
     text-align: center;
@@ -549,11 +667,11 @@ body {
     }
     
     #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         margin: 0 auto 15px;
         font-size: 7vw;
-        padding-top: 100px;
+        padding-top: 80px;
         margin-top: 20px;
         margin-right: 20px;
         border: 5px double #3cb371;
@@ -588,6 +706,39 @@ body {
 }
 
 @media (max-width: 767px) {
+    #home-titles .slick-arrow.slick-prev{
+        left: 0;
+        background: url(../images/arrow-left.svg) 0 0 / 100% no-repeat;
+        width: 40px;
+        height: 40px;
+        border: 0;
+        margin-top: -60px;
+       
+    
+    }
+    
+    #home-titles .slick-arrow.slick-next{
+        right: 0;
+        background: url(../images/arrow-right.svg) 0 0 / 100% no-repeat;
+        width: 40px;
+        height: 40px;
+        border: 0;
+        margin-top: -60px;
+    }
+    #home-titles .slick-dots button{
+        font-size: 0;
+        width: 2px;
+        height: 10px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 0;
+      
+        background-color: #fff;
+
+    }
+
+
+
     #header-nav {
         border: 3px double #8B0000;
         
@@ -646,12 +797,12 @@ body {
             margin-right: 10px;
         }
         #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-            width: 165px;
-            height: 165px;
+            width: 200px;
+            height: 200px;
             margin: 0 auto 15px;
             font-size: 8vw;
-            padding-top: 50px;
-            margin-top: 5px;
+            padding-top: 70px;
+            margin-top: 25px;
             border: 3px double #3cb371;
             
         }
@@ -778,16 +929,45 @@ body {
 
 
     @media (max-width: 350px) {
+
+        #home-titles .slick-arrow.slick-prev{
+            left: 0;
+            background: url(../images/arrow-left.svg) 0 0 / 100% no-repeat;
+            width: 40px;
+            height: 40px;
+            border: 0;
+            margin-top: -60px;
+           
         
+        }
+        
+        #home-titles .slick-arrow.slick-next{
+            right: 0;
+            background: url(../images/arrow-right.svg) 0 0 / 100% no-repeat;
+            width: 40px;
+            height: 40px;
+            border: 0;
+            margin-top: -60px;
+        }
+        #home-titles .slick-dots button{
+            font-size: 0;
+            width: 2px;
+            height: 10px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 0;
+            background-position: center;
+          
+            background-color: #fff;
+
+        }
     
         
         #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-            width: 135px;
-            height: 135px;
-            margin: 0 auto 15px;
-            font-size: 7vw;
-            padding-top: 50px;
-            margin-top: 3px;
+            width: 180px;
+            height: 180px;
+            padding-top: 70px;
+            margin-top: 25px;
             border: 3px double #3cb371;
             
         }
