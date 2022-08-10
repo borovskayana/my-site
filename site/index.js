@@ -41,7 +41,6 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 2,
         infinite: true,
-        dots: true
         }
         },
         {
@@ -62,3 +61,5 @@ $(document).ready(function(){
        
   });
 }); 
+
+
