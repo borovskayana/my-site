@@ -452,7 +452,12 @@ body {
     margin-bottom: 5px;
     opacity: 0.8;
 }
-
+#img-trip {
+    border-radius: 15%;
+}
+#button-trip {
+    background: radial-gradient(#fdf5e6, #056d20 );
+}
 
 /*TRIP photo Hoverla*/
 #photo-trip-hoverla{
@@ -595,6 +600,64 @@ body {
 } 
 
 
+#dash h3 {
+    color: #222;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+canvas{
+  box-shadow: -3px 2px 9px 6px black;
+  cursor: pointer;
+  
+
+}
+
+.tools{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+ .stroke-color {
+    height: 40px;
+    width: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    cursor: pointer;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid white;
+    align-self: center;
+    margin: 0 10px
+ }
+ .button {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    background: #222;
+    font-weight: bold;
+    margin: 0 10px;
+
+ }
+ .color-picker{
+    align-self: center;
+    margin: 0 10px;
+    height: 50px;
+ }
+ .pen-range {
+    align-self: center;
+    margin: 0 10px;
+ }
+
+
+
+
 /*#logo-img-category-art {
     background: url(../images/categoryarthead.png) no-repeat;
     width: 498px;
@@ -665,6 +728,15 @@ body {
     border-radius: 0%;
 }
 
+#photo-trip-art{
+    margin-top: 50px;
+}
+#description-pictures{
+    text-align: right;
+    font-size: 20px;
+    color:#222;
+}
+
 /*3D CATEGORY PAGE */
 
 #jumbotron-3d {
@@ -731,6 +803,9 @@ body {
     border: 5px double #fdf5e6;
 
 }
+
+
+
 
 @media (min-width: 1200px) {
     #header-nav {
@@ -1058,8 +1133,9 @@ body {
         margin: 0px;
        }
         #slidermin-item{
-         margin: 0 30px 0 0;
-         margin-top: 0px;
+         margin-left: 3%;
+         margin-top: 10px;
+        
         }
         #photo-trip-hoverla{
             border-radius: 0%;
@@ -1071,7 +1147,7 @@ body {
             width: 20px;
             height: 20px;
             border: 0;
-            margin-top: -20px;
+            margin-top: 20 px;
            
         
         }
@@ -1082,9 +1158,48 @@ body {
             width: 20px;
             height: 20px;
             border: 0;
-            margin-top: -20px;
+            margin-top: 20px;
         }
-    
+        .stroke-color {
+            height: 20px;
+            width: 20px;
+            min-height: 20px;
+            min-width: 20px;
+            cursor: pointer;
+         
+            border-radius: 50%;
+           
+            align-self: center;
+            margin: 0 3px
+         }
+         .button {
+            align-self: center;
+            width: 25px;
+            height: 20px;
+            font-size: 8px;
+            border: 2px solid white;
+            cursor: pointer;
+            color: white;
+            background: #222;
+            font-weight: bold;
+            margin: 0 2px;
+        
+         }
+         .color-picker{
+            align-self: center;
+            margin: 0 10px;
+            height: 20px;
+         }
+         .pen-range {
+            align-self: center;
+            margin: 0 3px;
+            
+         }
+
+         #dash h3 {
+            font-size: 8vw;
+         }
+        
 
 
 
@@ -1186,6 +1301,30 @@ body {
             position: relative;
 
         }
+    /* slidertrip*/
+    .slider-min .slick-arrow.slick-prev{
+        left: 0;
+        background: url(../images/left-arrow-trip.svg) 0 0 / 100% no-repeat;
+        width: 20px;
+        height: 20px;
+        border: 0;
+        margin-top: 20px;
+       
+    
+    }
+    
+    .slider-min .slick-arrow.slick-next{
+        right: 0;
+        background: url(../images/right-arrow-trip.svg) 0 0 / 100% no-repeat;
+        width: 20px;
+        height: 20px;
+        border: 0;
+        margin-top: 20px;
+    }
+    #slidermin-item {
+        margin-top: 20px;
+    }
+
 
 
 
