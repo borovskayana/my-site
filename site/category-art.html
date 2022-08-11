@@ -29,6 +29,76 @@
                 </div>
             </nav>
         </header>
+        <div id="dash" class="container"><h3>Let's try some drawing togather!</h3></div>
+
+
+
+        <section><div class="container" id="dash">
+      
+          <div class="field">
+
+        <canvas id="canvas"></canvas>
+
+  <div class="tools">
+<button class="button" onclick="Restore()">Undo</button>
+<button class="button" onclick="Clear()">Clear</button>
+
+<div onclick="change_color(this)" style="background:red" class="stroke-color"></div>
+<div onclick="change_color(this)" style="background:blue" class="stroke-color"></div>
+<div onClick="change_color(this)" style="background: green;" class="stroke-color"></div>
+<div onClick="change_color(this)" style="background: yellow;" class="stroke-color"></div>
+
+<input type="color" oninput="stroke_color = this.value" placeholder="Colors" class="color-picker">
+  
+<input type="range" min="1" max="100" oninput="stroke_width = this.value">
+  </div>
+</div>
+</div>
+        </section>
+
+
+
+
+
+
+
+
+        <!--<section><div class="container" id="dash">
+      
+          <div class="field">
+            <canvas id="canvas"></canvas>
+            <div class="tools">
+                <button onclick="undo_last()" type="button" class="button">Undo</button>
+                <button onclick="clear_canvas()" type="button" class="button">Clear</button>
+
+                <div onClick="change_color(this)" class="color-field" style="background: red;"></div>
+                <div onClick="change_color(this)" class="color-field" style="background: blue;"></div>
+                <div onClick="change_color(this)" class="color-field" style="background: green;"></div>
+                <div onClick="change_color(this)" class="color-field" style="background: yellow;"></div>
+
+                <input oninput="draw_color = this.value" type="color" 
+                       class="color-picker">
+                <input type="range" min="1" max="100" class="pen-range"
+                        oninput="draw_width = this.value">
+                
+            </div>
+          </div>
+        </div>
+        </section>-->
+
+
+
+
+
+        
+    
+
+        
+
+
+
+
+        
         <section><div class="container" id="form-dance">
           <form class="navbar-form navbar-right" role="search">
               <div class="form-group">
@@ -39,9 +109,10 @@
         </section>
 
         <div id="main-content" class="container">
+          <div id="dash" class="container"><h3>So this is what came out of that experiment!</h3></div>
             <div class="col-md-6">
                 <div id="jumbotron-art" class="jumbotron">
-                            <a href="#"> <div class="menu-item-photo">
+                            <a href="flowers.html"> <div class="menu-item-photo">
                             <img class="img-responsive" width="382" height="467" src="images/flowers.png" alt="Item">
                               </div>
                             <div class="menu-item-description">
@@ -49,14 +120,14 @@
                                 <p class="menu-item-details"> In this workshop, I want introduce you to the blossoming world of flowers. I'm regularly draws inspiration from the colourful wildflowers.  </p> 
                                 
                               </div> </a>
-                            <p id="button"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                            <p id="button"><a class="btn btn-primary btn-lg" href="flowers.html" role="button">Learn more</a></p>
                         
                 </div> 
                     <hr class="visible-xs">
             </div>
             <div class="col-md-6">
                 <div id="jumbotron-art" class="jumbotron">
-                            <a href="#"> <div class="menu-item-photo">
+                            <a href="girl-art.html"> <div class="menu-item-photo">
                             <img class="img-responsive" width="350" height="467" src="images/girl.png" alt="Item">
                               </div>
                             <div class="menu-item-description">
@@ -64,7 +135,7 @@
                                 <p class="menu-item-details">Pencil drawings were not known before the 17th century, with the modern concept of pencil drawings taking shape in 18th and 19th century. Pencil drawings succeeded the older metalpoint drawing stylus, which used metal instead of graphite. </p> 
                                 
                               </div> </a>
-                            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                            <p><a class="btn btn-primary btn-lg" href="girl-art.html" role="button">Learn more</a></p>
                         
                 </div> 
                     <hr class="visible-xs">
@@ -75,7 +146,7 @@
 
             <div class="col-md-6">
                 <div id="jumbotron-art" class="jumbotron">
-                            <a href="#"> <div class="menu-item-photo">
+                            <a href="girl2-art.html"> <div class="menu-item-photo">
                             <img class="img-responsive" width="350" height="467" src="images/faith.png" alt="Item">
                               </div>
                             <div class="menu-item-description">
@@ -83,7 +154,7 @@
                                 <p class="menu-item-details">Modern artists continue to use the graphite pencil for artworks and sketches.</p> 
                                 
                               </div> </a>
-                            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                            <p><a class="btn btn-primary btn-lg" href="girl2-art.html" role="button">Learn more</a></p>
                         
                 </div> 
                     <hr class="visible-xs">
@@ -91,7 +162,7 @@
             
             <div class="col-md-6">
               <div id="jumbotron-art" class="jumbotron">
-                          <a href="#"> <div class="menu-item-photo">
+                          <a href="house-art.html"> <div class="menu-item-photo">
                           <img class="img-responsive" width="350" height="467" src="images/sea.png" alt="Item">
                             </div>
                           <div class="menu-item-description">
@@ -99,7 +170,7 @@
                               <p class="menu-item-details">Oil painting is the process of painting with pigments with a medium of drying oil as the binder. It has been the most common technique for artistic painting on wood panel or canvas for several centuries, spreading from Europe to the rest of the world.</p> 
                               
                             </div> </a>
-                          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                          <p><a class="btn btn-primary btn-lg" href="house-art.html" role="button">Learn more</a></p>
                       
               </div> 
                   <hr class="visible-xs">
@@ -109,7 +180,7 @@
 
         <div class="col-md-6">
             <div id="jumbotron-art" class="jumbotron">
-                        <a href="#"> <div class="menu-item-photo">
+                        <a href="girl3-art.html"> <div class="menu-item-photo">
                         <img class="img-responsive" width="350" height="467" src="images/some-oil-painting.png" alt="Item">
                           </div>
                         <div class="menu-item-description">
@@ -117,7 +188,7 @@
                             <p class="menu-item-details"></p> 
                             
                           </div> </a>
-                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+                        <p><a class="btn btn-primary btn-lg" href="girl3-art.html" role="button">Learn more</a></p>
                     
             </div> 
                 <hr class="visible-xs">
@@ -125,6 +196,11 @@
 
 
         </div>
+        
+
+
+
+
 
         <footer class="panel-footer">
           <div class="container">
@@ -137,6 +213,8 @@
          
   </footer>
 
-  <script src="/js/art.js"></script>
+  <!--<script src="js/canvas.js"></script>-->
+  <script src="js/nawcanvas.js"></script>
+  <script src="js/art.js"></script>
     </body>
 </html>
