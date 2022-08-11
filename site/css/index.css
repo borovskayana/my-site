@@ -27,6 +27,14 @@ body {
     color: #fff;
     background-color: #008b8b;
     font-family: 'Amatic SC', cursive;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+.main {
+    flex: 1;
+    
 }
 
 /* HEADER */
@@ -689,7 +697,7 @@ canvas{
  #jumbotron-dance {
     background: radial-gradient(#fff,#fff);
     box-shadow: 0 0 50px #f6ce9b;
-    border-radius: 15%;
+    border-radius: 0%;
     border: 0;
     opacity: 0.9;
 
@@ -735,6 +743,10 @@ canvas{
     text-align: right;
     font-size: 20px;
     color:#222;
+}
+
+#dancevideo {
+    text-align: center;
 }
 
 /*3D CATEGORY PAGE */
@@ -807,7 +819,21 @@ canvas{
 
 
 
-@media (min-width: 1200px) {
+@media (min-width: 2500px) {
+    
+    
+    
+    #header-nav {
+        border: 5px double #8B0000;
+    }
+
+    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
+        border: 5px double #3cb371;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 2499px) {
     #header-nav {
         border: 5px double #8B0000;
     }
