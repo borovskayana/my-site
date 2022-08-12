@@ -1068,8 +1068,6 @@ canvas{
         background-color: #fff;
 
     }
-
-}
     #jumbotron-3d {
         margin-left: -200px;
         margin-right: -200px;
@@ -1082,16 +1080,19 @@ canvas{
     }
 
     .navbar-header-category{
-      
+      font-size: 6rem;
        
     }
 
   
     .navbar-header-category a{
-      
+      margin-left: -500px;
     }
 
 
+
+
+}
 
 
 
