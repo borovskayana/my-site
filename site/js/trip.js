@@ -1,3 +1,8 @@
+
+
+
+    
+
 window.onload = () => {
     let input = document.querySelector("#input-dance");
     input.oninput = function() {
@@ -6,8 +11,8 @@ window.onload = () => {
 
         if (value != "") {
 
-            list.forEach(elem => {
-                if(elem.innerText.search(value) == -1) {
+            list.forEach(function (elem) {
+                if(elem.innerText.search((RegExp(value, "gi"))) == -1) {
                     elem.classList.add("hide")
                 };
             });
