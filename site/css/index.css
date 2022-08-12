@@ -56,6 +56,11 @@ body {
    
 
 }
+#img-trip-main{
+    border-radius: 20%;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
 .navbar-brand {
     padding-top: 25px;
    
@@ -617,6 +622,7 @@ body {
 canvas{
   box-shadow: -3px 2px 9px 6px black;
   cursor: pointer;
+
   
 
 }
@@ -789,6 +795,10 @@ canvas{
     text-decoration: none;
 } 
 
+#jumbotron-3d {
+    border-radius: 5%;
+}
+
 /*MOVIES */
 
 #jumbotron-movies {
@@ -818,11 +828,274 @@ canvas{
 
 
 
+@media (min-width: 1600px) and (max-width:1999px) {
+    
+    canvas{
+        box-shadow: -3px 2px 9px 6px black;
+        cursor: pointer;
+        width:1000px;
+        
+      
+      }
 
-@media (min-width: 2500px) {
+    #logo-img {
+        background: url("../images/mainimgbig.png") no-repeat;
+        width: 400px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: -200px;
+        border-radius: 50%;
+       
+    
+    }
     
     
+    .navbar-brand h1 {
+        font-size: 5rem;
+       
+        margin-bottom: 50px;
+        margin-top: 130px;
+        margin-left: 50px;
+        
+    }
     
+  
+    .navbar-brand p {
+     
+        font-size: 5rem;
+        padding-top: 20px;
+        margin-left: 50px;
+    }
+    
+  
+    
+    #nav-list a {
+      
+        font-size: 5rem;
+    
+    }
+    
+   
+    #nal-list a span {
+        font-size: 50px;
+    }
+    
+
+    #header-nav {
+        border: 5px double #8B0000;
+    }
+    #home-titles{
+        width: 1350px;
+        margin-left: -100px;
+        margin-top: 200px;
+    }
+
+    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
+        border: 5px double #3cb371;
+        width: 400px;
+        height: 400px;
+    }
+    #home-titles .slick-arrow.slick-prev{
+        left: 0;
+        background: url(../images/arrow-left.svg) 0 0 / 100% no-repeat;
+        width: 100px;
+        height: 100px;
+        border: 0;
+        margin-top: -60px;
+       /* margin-left: -300px;*/
+       
+    
+    }
+    
+    #home-titles .slick-arrow.slick-next{
+        right: 0;
+        background: url(../images/arrow-right.svg) 0 0 / 100% no-repeat;
+        width: 100px;
+        height: 100px;
+        border: 0;
+        margin-top: -60px;
+       /* margin-right: -300px;*/
+    }
+    #home-titles .slick-dots button{
+        font-size: 0;
+        width: 2px;
+        height: 10px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 0;
+      
+        background-color: #fff;
+
+    }
+
+}
+@media (min-width: 2000px) {
+
+    #dash h3 {
+        font-size: 8rem;
+    }
+
+   #left {
+    margin-left: -400px;
+    margin-right: 60px;
+    margin-top: 50px;
+    
+   }
+   #right {
+    margin-right: -400px;
+    margin-left: 60px;
+    margin-top: 50px;
+    
+   }
+   
+    canvas{
+        box-shadow: -3px 2px 9px 6px black;
+        cursor: pointer;
+        /*width:1700px;*/
+        margin-left: -650px;
+        
+      
+      }
+      .menu-item-description p {
+        font-size: 6rem;
+    
+    }
+    
+    .menu-item-description h3 {
+        font-size: 8rem;
+     
+    }
+    
+    
+    #logo-img {
+        background: url("../images/mainimgbig.png") no-repeat;
+        width: 400px;
+        height: 400px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: -350px;
+        border-radius: 50%;
+        position: relative;
+       
+    
+    }
+    
+    
+    .navbar-brand h1 {
+        font-size: 6rem;
+       
+        margin-bottom: 40px;
+        margin-top: 130px;
+        margin-left: 50px;
+        
+    }
+    
+  
+    .navbar-brand p {
+     
+        font-size: 5rem;
+        padding-top: 30px;
+        margin-left: 50px;
+    }
+    
+  
+    
+    #nav-list{
+      
+        font-size: 3rem;
+        margin-right: -400px;
+        margin-top: -450px;
+        
+    
+    }
+    #navbar-brand, #nav-list {
+        clear: both;
+        
+      
+    }
+   
+    #nal-list a span {
+        font-size: 50px;
+    }
+    
+    
+    #header-nav {
+        border: 5px double #8B0000;
+    }
+    #home-titles{
+        width: 1900px;
+        margin-left: -350px;
+        margin-top: 200px;
+    }
+
+    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
+        border: 5px double #3cb371;
+        width: 600px;
+        height: 600px;
+        font-size: 8rem;
+        padding-top: 190px;
+        border: 10px double #065c29;
+    }
+    #home-titles .slick-arrow.slick-prev{
+        left: 0;
+        background: url(../images/arrow-left.svg) 0 0 / 100% no-repeat;
+        width: 120px;
+        height: 120px;
+        border: 0;
+        margin-top: -60px;
+        margin-left: -30px
+       
+    
+    }
+    
+    #home-titles .slick-arrow.slick-next{
+        right: 0;
+        background: url(../images/arrow-right.svg) 0 0 / 100% no-repeat;
+        width: 120px;
+        height: 120px;
+        border: 0;
+        margin-top: -60px;
+        margin-right: -30px;
+    }
+    #home-titles .slick-dots button{
+        font-size: 0;
+        width: 2px;
+        height: 10px;
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 0;
+      
+        background-color: #fff;
+
+    }
+
+}
+    #jumbotron-3d {
+        margin-left: -200px;
+        margin-right: -200px;
+    }
+   
+    #jumbotron-movies {
+        margin-left: -500px;
+        margin-right: -500px;
+        margin-bottom: 100px;
+    }
+
+    .navbar-header-category{
+      
+       
+    }
+
+  
+    .navbar-header-category a{
+      
+    }
+
+
+
+
+
+/*@media (min-width: 1600px) and (max-width: 2499px) {
     #header-nav {
         border: 5px double #8B0000;
     }
@@ -831,21 +1104,10 @@ canvas{
         border: 5px double #3cb371;
     }
 
-}
 
-@media (min-width: 1200px) and (max-width: 2499px) {
-    #header-nav {
-        border: 5px double #8B0000;
-    }
+}*/
 
-    #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-        border: 5px double #3cb371;
-    }
-
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1200px) {
     
     #header-nav {
         border: 5px double #8B0000;
@@ -853,11 +1115,11 @@ canvas{
     }
 
     #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-        width: 220px;
-        height: 220px;
+        width: 270px;
+        height: 270px;
         margin: 0 auto 15px;
-        font-size: 5vw;
-        padding-top: 60px;
+        font-size: 6vw;
+        padding-top: 90px;
         margin-top: 20px;
         border: 5px double #3cb371;
     }
@@ -896,14 +1158,15 @@ canvas{
     }
     
     #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         margin: 0 auto 15px;
         font-size: 7vw;
-        padding-top: 80px;
-        margin-top: 20px;
+        padding-top: 100px;
+        margin-top: 80px;
         margin-right: 20px;
         border: 5px double #3cb371;
+      
     }
 
     #media-object-left {
@@ -1026,16 +1289,40 @@ canvas{
             margin-right: 10px;
         }
         #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             margin: 0 auto 15px;
-            font-size: 8vw;
-            padding-top: 70px;
+            font-size: 11vw;
+            padding-top: 90px;
             margin-top: 25px;
+          
             border: 3px double #3cb371;
+
             
         }
+
+        #life-title {
+            background:  radial-gradient(#fff,#e98238);
+
+        }
     
+        #trip-title {
+            background:  radial-gradient(#fff,#38e94d);
+
+        }
+        #art-title {
+            background:  radial-gradient(#fff,#196aec);
+
+        }
+        #movies-title {
+            background:  radial-gradient(#fff,#d719ec);
+
+        }
+        #music-title {
+            background:  radial-gradient(#fff,#e4ef47);
+
+        }
+
         #media-object-left {
             background: url("../images/stichsm.png");
             width: 80px;
@@ -1050,7 +1337,7 @@ canvas{
             height: 85px;
             padding: 0;
             margin-top: -75px;
-            margin-right: 0;
+            margin-right: -10px;
         }
         
         .panel-footer span {
@@ -1269,8 +1556,8 @@ canvas{
     
         
         #life-title, #trip-title, #art-title, #movies-title, #music-title, #inspiration-title, #inspirationn-title {
-            width: 180px;
-            height: 180px;
+            width: 190px;
+            height: 190px;
             padding-top: 70px;
             margin-top: 25px;
             border: 3px double #3cb371;
